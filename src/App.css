@@ -1,0 +1,74 @@
+body{
+  position: fixed;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.root{
+  
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  flex-grow: 1;
+}
+.App{
+  position: absolute;
+  display: flex;
+  background-color: darkgray;
+  height: 100%;
+  width: 100%;
+}
+
+#GameButtonsBox{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+.Moves{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.MovesLine{
+  background-color: lightblue;
+  border: solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.Label{
+  justify-self: flex-start;
+  
+}
+.AIForm{
+  height: 100%;
+  width: 100%;
+}
+.AIBTN{
+  border: solid thin burlywood;
+  height: 100%;
+  width: 100%;
+  background-color: darkolivegreen;
+}
+.ResetForm{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.ResetBTN{
+  height: 25%;
+  width: 50%;
+}
+.BestMoveBTN{
+  background-color: darkturquoise;
+  border: solid thin darkgreen;
+  height: 100%;
+  width: 100%;
+}

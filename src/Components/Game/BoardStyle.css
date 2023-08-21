@@ -1,0 +1,17 @@
+#BoardPage{
+    display: flex;
+    flex-direction: row;
+    
+    /* padding: 500rem; */
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslategray;
+}
+
+#Board{
+    box-shadow: 0px 0px 40px black;
+    width: 60%;
+}
+
